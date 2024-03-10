@@ -94,6 +94,7 @@
   align-items: center;
   margin: auto;
   color: white;
+  gap: 0 50px;
 }
 .box3 :first-child {
   font-size: 48px;
@@ -116,13 +117,13 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .box3 img {
-  width: 450px;
+  width: 500px;
   z-index: 1000;
 }
 .box3 video {
   position: relative;
-right: 400px;
-  width: 350px;
+  right: 500px;
+  width: 400px;
 }
 nav {
   height: 60px;
@@ -297,6 +298,7 @@ nav button {
   font-weight: 900;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
+  margin-top: 40px;
 }
 .box7 :nth-child(8) {
   font-size: 23px;
@@ -332,14 +334,35 @@ nav button {
   border: 1px solid red;
 }
 .box8 {
+  height: 75vh;
+
+  width: 80vw;
+  margin: auto;
 }
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: center;
   align-items: center;
+  gap: 23px;
+  width: 80vw;
+  height: 25px;
+  margin-top: 12px;
 }
 .box8 a:link {
-  text-decoration: none;
-  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 400;
+}
+.Questions {
+  padding-top: 50px;
+}
+select{
+  color: inherit;
+}
+.english{
+  display: flex;
+width: 100px;
+height: 50px;
+border: 1px solid white;
 }
